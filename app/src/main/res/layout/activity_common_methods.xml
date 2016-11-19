@@ -9,7 +9,7 @@
     tools:context="com.dupontremy.lib_videoview.CommonMethodsActivity">
 
     <com.dupontremy.libmaterialvideoview.MaterialVideoView
-        android:id="@+id/smavideoview"
+        android:id="@+id/videoview"
         android:layout_width="match_parent"
         android:layout_height="250dp" />
 

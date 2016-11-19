@@ -15,7 +15,7 @@ public class CustomInitActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custom_init);
 
-        materialVideoView = (MaterialVideoView) findViewById(R.id.smavideoview);
+        materialVideoView = (MaterialVideoView) findViewById(R.id.videoview);
         materialVideoView
 
                 .thumbDrawable(Utils.getDensityDrawable("thumb.png", DisplayMetrics.DENSITY_XHIGH, this))

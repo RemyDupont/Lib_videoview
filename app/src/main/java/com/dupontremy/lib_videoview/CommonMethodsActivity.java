@@ -21,7 +21,7 @@ public class CommonMethodsActivity extends AppCompatActivity implements View.OnC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_common_methods);
 
-        materialVideoView = (MaterialVideoView) findViewById(R.id.smavideoview);
+        materialVideoView = (MaterialVideoView) findViewById(R.id.videoview);
         AssetFileDescriptor afd = Utils.getAssetFileDescriptor("video.mp4", this);
         materialVideoView
                 .autoPlay(true)

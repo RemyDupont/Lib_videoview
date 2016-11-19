@@ -17,7 +17,7 @@ public class ScaleTypeActivity extends AppCompatActivity implements View.OnClick
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scale_type);
 
-        materialVideoView = (MaterialVideoView) findViewById(R.id.smavideoview);
+        materialVideoView = (MaterialVideoView) findViewById(R.id.videoview);
         materialVideoView.create("video.mp4");
 
         Button fitXY = (Button) findViewById(R.id.fitXY);

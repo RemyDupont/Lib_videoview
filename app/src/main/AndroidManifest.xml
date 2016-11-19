@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SimpleInitActivity" />
+        <activity android:name=".SimpleInitActivity"
+            android:configChanges="orientation|keyboardHidden"/>
         <activity android:name=".CustomInitActivity" />
         <activity android:name=".ScaleTypeActivity" />
         <activity android:name=".CommonMethodsActivity" />

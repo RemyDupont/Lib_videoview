@@ -8,7 +8,7 @@
     tools:context="com.dupontremy.lib_videoview.CustomInitActivity">
 
     <com.dupontremy.libmaterialvideoview.MaterialVideoView
-        android:id="@+id/smavideoview"
+        android:id="@+id/videoview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
