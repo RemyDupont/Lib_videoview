@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dupontremy.lib_videoview.MainActivity">
+
+        <Button
+            android:id="@+id/simpleinit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Simple Init"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <Button
+            android:id="@+id/custominit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Custom Init"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <Button
+            android:id="@+id/scaletype"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="scaletypes"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <Button
+            android:id="@+id/commonmethods"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Common methods"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+</LinearLayout>
