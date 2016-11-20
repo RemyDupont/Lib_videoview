@@ -5,10 +5,11 @@
 # Implement
 
 ## Simple init 
-    ```java
-    materialVideoView = (MaterialVideoView) findViewById(R.id.smavideoview);
-    materialVideoView.create("video.mp4");
-    ```
+
+```java
+materialVideoView = (MaterialVideoView) findViewById(R.id.smavideoview);
+materialVideoView.create("video.mp4");
+```
      
 The function create() could have a **string** : load from assets or an **AssetFileDescriptor**
     
