@@ -5,16 +5,17 @@
 # Implement
 
 ## Simple init 
-    :::java
+    ```java
     materialVideoView = (MaterialVideoView) findViewById(R.id.smavideoview);
     materialVideoView.create("video.mp4");
+    ```
      
 The function create() could have a **string** : load from assets or an **AssetFileDescriptor**
     
 
 ## Custom init
 
-    :::java
+    ```java
     materialVideoView
                 // drawable
                 .thumbDrawable(getDrawable("thumb.png"))
@@ -43,16 +44,18 @@ The function create() could have a **string** : load from assets or an **AssetFi
                 
                 // true : video start at create / default false : video not playing at start
                 autoPlay(boolean);
+                ```
                    
 These color functions could have a **Color (int)** or a **String ("#ff0000")**
     
     
 ### Common method
 
-    :::java
+    ```java
     materialVideoView.isPlaying();               // return true or false if video is palying
     materialVideoView.play();                    // start video
     materialVideoView.pause();                   // pause video       
     materialVideoView.setProgress(int time);     // set video time at "time" milliseconds
     materialVideoView.getCurrentTime();          // return current video "time"
     materialVideoView.setProgressVisible(true);   // Active method : show or hide player
+    ```
